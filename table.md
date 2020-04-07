@@ -12,3 +12,16 @@
 | Red-Black / AVL / 2-3 Tree  | `O(lg n)`  | `O(lg n)`  | `O(lg n)`  | `O(n)`  |
 | Hash table  | `O(n)`: worst case `O(1)`: amortized  | `O(n)`: worst case `O(1)`: amortized  | `O(n)`: worst case `O(1)`: amortized  | `O(n)`: worst case `O(1)`: amortized  |
 | Trie (size of alphabet: `d`, length of longest word: `n`)  | `O(n)`  | `O(n)`  | `O(n)`  | `O(d^n)`  |
+
+# Graph operations
+
+Time complexities of some common operations in a grpah with `n` vertices and `m` edges.
+
+| Operation | Adjacency list | Adjacency matrix |
+| --- | --- | --- |
+| Add vertex | `O(1)` | `O(1)`|
+| Remove vertex | `O(m+n)` | `O(n^2)` |
+| Add edge | `O(1)` | `O(1)` |
+| Remove edge | `O(n)` | `O(1)` |
+| Depth / Breadth first search | `O(m+n)` | `O(n^2)` |
+| Space complexity | `O(m+n)` | `O(n^2)` |
