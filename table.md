@@ -19,7 +19,7 @@ Time complexities of some common operations in a grpah with `n` vertices and `m`
 
 | Operation | Adjacency list | Adjacency matrix |
 | --- | --- | --- |
-| Add vertex | `O(n)` | `O(n^2)`|
+| Add vertex | `O(1)` | `O(n^2)`|
 | Remove vertex | `O(m+n)` | `O(n^2)` |
 | Add edge | `O(1)` | `O(1)` |
 | Remove edge | `O(n)` | `O(1)` |
